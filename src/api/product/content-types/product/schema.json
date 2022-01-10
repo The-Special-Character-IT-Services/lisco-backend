@@ -28,10 +28,11 @@
     },
     "productImage": {
       "type": "media",
-      "multiple": false,
+      "multiple": true,
       "required": true,
       "allowedTypes": [
-        "images"
+        "images",
+        "videos"
       ],
       "pluginOptions": {
         "i18n": {
@@ -56,6 +57,25 @@
           "localized": false
         }
       }
+    },
+    "currency": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "enumeration",
+      "enum": [
+        "INR",
+        "USD"
+      ],
+      "default": "INR",
+      "required": true
+    },
+    "categories": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::category.category"
     }
   }
 }
