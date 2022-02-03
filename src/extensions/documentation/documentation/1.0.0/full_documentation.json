@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-02-01T12:15:31.945Z"
+    "x-generation-date": "2022-02-03T05:11:08.083Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -27,7 +27,7 @@
   },
   "servers": [
     {
-      "url": "https://6c45-27-57-188-217.ngrok.io/api",
+      "url": "http://localhost:1337/api",
       "description": "Development server"
     }
   ],
@@ -10762,6 +10762,12 @@
                                                             }
                                                           }
                                                         },
+                                                        "countryCode": {
+                                                          "type": "string"
+                                                        },
+                                                        "mobile": {
+                                                          "type": "string"
+                                                        },
                                                         "createdAt": {
                                                           "type": "string",
                                                           "format": "date-time"
@@ -13104,6 +13110,12 @@
                                                           }
                                                         }
                                                       },
+                                                      "countryCode": {
+                                                        "type": "string"
+                                                      },
+                                                      "mobile": {
+                                                        "type": "string"
+                                                      },
                                                       "createdAt": {
                                                         "type": "string",
                                                         "format": "date-time"
@@ -15392,6 +15404,12 @@
                                                           }
                                                         }
                                                       },
+                                                      "countryCode": {
+                                                        "type": "string"
+                                                      },
+                                                      "mobile": {
+                                                        "type": "string"
+                                                      },
                                                       "createdAt": {
                                                         "type": "string",
                                                         "format": "date-time"
@@ -17642,6 +17660,12 @@
                                                             }
                                                           }
                                                         }
+                                                      },
+                                                      "countryCode": {
+                                                        "type": "string"
+                                                      },
+                                                      "mobile": {
+                                                        "type": "string"
                                                       },
                                                       "createdAt": {
                                                         "type": "string",
@@ -20196,6 +20220,12 @@
                                                           }
                                                         }
                                                       },
+                                                      "countryCode": {
+                                                        "type": "string"
+                                                      },
+                                                      "mobile": {
+                                                        "type": "string"
+                                                      },
                                                       "createdAt": {
                                                         "type": "string",
                                                         "format": "date-time"
@@ -22683,6 +22713,12 @@
                                               }
                                             }
                                           },
+                                          "countryCode": {
+                                            "type": "string"
+                                          },
+                                          "mobile": {
+                                            "type": "string"
+                                          },
                                           "createdAt": {
                                             "type": "string",
                                             "format": "date-time"
@@ -24635,6 +24671,12 @@
                                             }
                                           }
                                         },
+                                        "countryCode": {
+                                          "type": "string"
+                                        },
+                                        "mobile": {
+                                          "type": "string"
+                                        },
                                         "createdAt": {
                                           "type": "string",
                                           "format": "date-time"
@@ -26505,6 +26547,12 @@
                                             }
                                           }
                                         },
+                                        "countryCode": {
+                                          "type": "string"
+                                        },
+                                        "mobile": {
+                                          "type": "string"
+                                        },
                                         "createdAt": {
                                           "type": "string",
                                           "format": "date-time"
@@ -28365,6 +28413,12 @@
                                               }
                                             }
                                           }
+                                        },
+                                        "countryCode": {
+                                          "type": "string"
+                                        },
+                                        "mobile": {
+                                          "type": "string"
                                         },
                                         "createdAt": {
                                           "type": "string",
@@ -30497,6 +30551,12 @@
                                               }
                                             }
                                           }
+                                        },
+                                        "countryCode": {
+                                          "type": "string"
+                                        },
+                                        "mobile": {
+                                          "type": "string"
                                         },
                                         "createdAt": {
                                           "type": "string",

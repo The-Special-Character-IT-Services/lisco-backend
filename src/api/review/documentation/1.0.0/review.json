@@ -1555,6 +1555,12 @@
                                               }
                                             }
                                           },
+                                          "countryCode": {
+                                            "type": "string"
+                                          },
+                                          "mobile": {
+                                            "type": "string"
+                                          },
                                           "createdAt": {
                                             "type": "string",
                                             "format": "date-time"
@@ -3507,6 +3513,12 @@
                                             }
                                           }
                                         },
+                                        "countryCode": {
+                                          "type": "string"
+                                        },
+                                        "mobile": {
+                                          "type": "string"
+                                        },
                                         "createdAt": {
                                           "type": "string",
                                           "format": "date-time"
@@ -5377,6 +5389,12 @@
                                             }
                                           }
                                         },
+                                        "countryCode": {
+                                          "type": "string"
+                                        },
+                                        "mobile": {
+                                          "type": "string"
+                                        },
                                         "createdAt": {
                                           "type": "string",
                                           "format": "date-time"
@@ -7237,6 +7255,12 @@
                                               }
                                             }
                                           }
+                                        },
+                                        "countryCode": {
+                                          "type": "string"
+                                        },
+                                        "mobile": {
+                                          "type": "string"
                                         },
                                         "createdAt": {
                                           "type": "string",
@@ -9369,6 +9393,12 @@
                                               }
                                             }
                                           }
+                                        },
+                                        "countryCode": {
+                                          "type": "string"
+                                        },
+                                        "mobile": {
+                                          "type": "string"
                                         },
                                         "createdAt": {
                                           "type": "string",

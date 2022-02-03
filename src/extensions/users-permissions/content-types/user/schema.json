@@ -68,6 +68,12 @@
       "relation": "oneToMany",
       "target": "api::review.review",
       "mappedBy": "user"
+    },
+    "countryCode": {
+      "type": "string"
+    },
+    "mobile": {
+      "type": "string"
     }
   }
 }
