@@ -9,7 +9,9 @@
     "build": "strapi build",
     "strapi": "strapi"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "pg-connection-string": "^2.5.0"
+  },
   "dependencies": {
     "@strapi/plugin-documentation": "4.0.6",
     "@strapi/plugin-graphql": "4.0.6",
