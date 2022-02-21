@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_product_values",
+  "info": {
+    "displayName": "Values",
+    "icon": "adjust",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Text": {
+      "type": "string"
+    }
+  }
+}

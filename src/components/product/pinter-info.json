@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_product_pinter_infos",
+  "info": {
+    "displayName": "PinterInfo",
+    "icon": "ad",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Key": {
+      "type": "string"
+    },
+    "Values": {
+      "type": "component",
+      "repeatable": true,
+      "component": "product.values"
+    }
+  }
+}

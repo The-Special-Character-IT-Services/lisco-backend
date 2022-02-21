@@ -4,5 +4,5 @@ module.exports = ({ env }) => ({
   app: {
     keys: env.array("APP_KEYS", ["testKey1", "testKey2"]),
   },
-  // url: 'https://b42b-27-57-188-217.ngrok.io'
+  url: 'https://45d5-117-99-98-214.ngrok.io'
 });

@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_product_product_details",
+  "info": {
+    "displayName": "ProductDetails",
+    "icon": "apple-alt"
+  },
+  "options": {},
+  "attributes": {
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    }
+  }
+}

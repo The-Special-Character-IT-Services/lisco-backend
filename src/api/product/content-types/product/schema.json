@@ -75,12 +75,60 @@
     "categories": {
       "type": "relation",
       "relation": "oneToMany",
-      "target": "api::category.category"
+      "target": "api::category.category",
+      "mappedBy": "product"
     },
     "reviews": {
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::review.review",
+      "mappedBy": "product"
+    },
+    "PrinterInfo": {
+      "displayName": "PrinterInfo",
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "product.printer-info"
+    },
+    "ProductDetails": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "product.product-details"
+    },
+    "brochure": {
+      "allowedTypes": [
+        "files"
+      ],
+      "type": "media",
+      "multiple": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "youtubeLink": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "leads": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::lead.lead",
       "mappedBy": "product"
     }
   }

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_product_printer_infos",
+  "info": {
+    "displayName": "PrinterInfo",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "key": {
+      "type": "string"
+    },
+    "Values": {
+      "type": "component",
+      "repeatable": true,
+      "component": "product.values"
+    }
+  }
+}
