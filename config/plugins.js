@@ -10,6 +10,8 @@ module.exports = ({ env }) => ({
       actionOptions: {
         upload: {
             folder: env("CLOUDINARY_FOLDER"),
+            use_filename: true,
+            unique_filename: false,
         },
         delete: {},
       },

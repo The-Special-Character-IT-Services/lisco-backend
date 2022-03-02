@@ -72,12 +72,6 @@
       "default": "INR",
       "required": true
     },
-    "categories": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::category.category",
-      "mappedBy": "product"
-    },
     "reviews": {
       "type": "relation",
       "relation": "oneToMany",
@@ -130,6 +124,12 @@
       "relation": "oneToMany",
       "target": "api::lead.lead",
       "mappedBy": "product"
+    },
+    "category": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::category.category",
+      "inversedBy": "products"
     }
   }
 }
